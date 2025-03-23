@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kirim Feedback</h1>
+        <input type="text" id="nama" placeholder="Nama" required>
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="pesan" placeholder="Pesan" required></textarea>
+        <button onclick="kirimFeedback()">Kirim</button>
+        
+        <h2>List Feedback</h2>
+        <div id="feedback-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
